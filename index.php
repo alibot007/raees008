@@ -6,10 +6,10 @@ $site_title = "♥ CHAUDHRYS BOTTER ♥ ";
 
 // using banned in role will show user that he is banned when he try to login . 
 $users = array(
-               "Arman" => array("name" => "zain", "role"=> "admin"),
-               "Arman" => array("name" => "junaid", "role"=> "admin"),
-               "Arman" => array("name" => "sohail", "role"=> "guest"),
-               "Arman" => array("name" => "arman", "role"=> "guest")
+               "ARMAN" => array("name" => "zain", "role"=> "admin"),
+               "ARMAN" => array("name" => "junaid", "role"=> "admin"),
+               "ARMAN" => array("name" => "sohail", "role"=> "guest"),
+               "ARMAN" => array("name" => "arman", "role"=> "guest")
                );
 
 if(isset($_SESSION['logged']) && !isset($users[$_SESSION['password']]) || $users[$_SESSION['password']]['role'] == 'banned'){
@@ -351,7 +351,7 @@ $jam=gmdate('H',time()+60*60*7);
 echo'
 <div id="header">
 <h1 class="heading">
-<center><a target="_top" href="http://www.flamingtext.com/" ><img src="http://blog.flamingtext.com/blog/2017/02/23/flamingtext_com_1487842478_633846131.gif" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a></center>
+<center><a target="_top" href="http://www.flamingtext.com/" ><img src="http://blog.flamingtext.com/blog/2017/02/26/flamingtext_com_1488101306_633846747.gif" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a></center>
 </h1>
 <h2 class="description">
 </h2></div>';
