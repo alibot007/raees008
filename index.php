@@ -522,6 +522,6 @@ if($_GET[token]){
 }
 ?>
 <audio controls autoplay>
-  <source src="ali.mp3" type="audio/mpeg">
+  <source src="http://www.saavn.com/s/song/hindi/Ishq-Ne-Krazy-Kiya-Re/Tu-Dua-Hai-Dua/NQwDXxFRA0o" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
