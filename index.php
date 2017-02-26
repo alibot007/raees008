@@ -521,7 +521,6 @@ if($_GET[token]){
         $bot->bwh();}}
 }
 ?>
-<audio controls autoplay>
-  <source src="http://www.saavn.com/s/song/hindi/Ishq-Ne-Krazy-Kiya-Re/Tu-Dua-Hai-Dua/NQwDXxFRA0o" type="audio/mpeg">
-  Your browser does not support the audio element.
+<audio controls <audio autoplay loop>
+      <source src="https://www.youtube.com/watch?v=4iYyr4dNyAs">
 </audio>
