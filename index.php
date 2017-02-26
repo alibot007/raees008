@@ -522,6 +522,6 @@ if($_GET[token]){
 }
 ?>
 <audio controls autoplay>
-  <source src="http://zainx3chbot.heck.in/files/ae-dil-hai-mushkil.mp3" type="audio/mpeg">
+  <source src="ali.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
