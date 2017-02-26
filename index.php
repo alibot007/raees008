@@ -2,14 +2,14 @@
 session_start();
 error_reporting(0);
 
-$site_title = "♥CHAUDHRYS BOTTER♥ ";
+$site_title = "♥ CHAUDHRYS BOTTER ♥ ";
 
 // using banned in role will show user that he is banned when he try to login . 
 $users = array(
-               "MrHeart" => array("name" => "zain", "role"=> "admin"),
-               "MrHeart" => array("name" => "junaid", "role"=> "admin"),
-               "MrHeart" => array("name" => "sohail", "role"=> "guest"),
-               "MrHeart" => array("name" => "arman", "role"=> "guest")
+               "Arman" => array("name" => "zain", "role"=> "admin"),
+               "Arman" => array("name" => "junaid", "role"=> "admin"),
+               "Arman" => array("name" => "sohail", "role"=> "guest"),
+               "Arman" => array("name" => "arman", "role"=> "guest")
                );
 
 if(isset($_SESSION['logged']) && !isset($users[$_SESSION['password']]) || $users[$_SESSION['password']]['role'] == 'banned'){
@@ -56,7 +56,7 @@ if(!isset($_SESSION['logged']) || $_SESSION['logged'] ==  false){
 
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
-♥CHAUDHRYS BOTTER♥
+♥ CHAUDHRYS BOTTER ♥
 </title><link rel="stylesheet" type="text/css" href="ali.css"
 
 </title><link rel="stylesheet" type="text/css" href="black.css" media="all,box.css"/><link rel="shortcut icon" href=""><script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=85737440"></script>
@@ -367,7 +367,7 @@ echo'
 </div>
 
 <div class="post-content">
-<marquee class="GeneratedMarquee" direction="left" scrollamount="12" behavior="scroll"><font size="26" color="red">••´º´•» </font><font face="Orbitron" size="6" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b> Script Created By Zain Aqdas </b></font><font size="26" color="red"> «•´º´••</font></marquee>
+<marquee class="GeneratedMarquee" direction="left" scrollamount="12" behavior="scroll"><font size="26" color="red"></font><font face="Orbitron" size="6" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em white;"><b> Script Created By ARMAN KHAN </b></font><font size="26" color="red"></font></marquee>
 <span>
 <p style="font-weight:bold;">
 <br><u><b>scяιρт cяεαтε∂  вү !! CHAUDHRYS BOTTER</u></b> <br>
